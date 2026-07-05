@@ -8,6 +8,7 @@ const highlights = [
   'Freshly grilled patties',
   'House-made sauces',
   'Late-night comfort bites',
+  
 ]
 
 function App() {
