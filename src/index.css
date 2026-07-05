@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-burger-bg: #fffaf0;
+  --color-burger-surface: #fff3c4;
+  --color-burger-cream: #fef3c7;
+  --color-burger-accent: #f59e0b;
+  --color-burger-accent-dark: #b45309;
+  --color-burger-ink: #2d1602;
+  --font-display: "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+}
+
+:root {
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-burger-ink);
+  background-color: var(--color-burger-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(135deg, #fffaf0 0%, #fff7de 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
