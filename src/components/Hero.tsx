@@ -1,13 +1,16 @@
 
 const Hero = () => {
   return (
-  <section className="grid items-center gap-8 rounded-4xl border border-burger-accent/20 bg-linear-to-br from-burger-surface via-burger-cream to-white p-8 shadow-[0_24px_80px_rgba(0,0,0,0.08)] lg:grid-cols-[1.1fr_0.9fr] lg:p-12">
-          <div>
+    <>
+  <section className="grid items-center gap-8 rounded-4xl border border-burger-accent/20 bg-linear-to-br from-burger-surface/10 via-burger-cream/5 to-white/5 p-8 shadow-[0_24px_80px_rgba(0,0,0,0.08)] lg:grid-cols-[1.1fr_0.9fr] lg:p-12 relative overflow-hidden">
+    <img src="/poster-img.jpg" alt="Delicious smash burger" className=" absolute top-0 left-0 w-full h-full object-cover -z-10 opacity-25" />
+          <div className="relative z-10">
             <p className="mb-4 inline-flex rounded-full border border-burger-accent/30 bg-white/70 px-3 py-1 text-sm font-semibold text-burger-accent-dark">
               🔥 New season smash burger
             </p>
+
             <h1
-              className="text-4xl font-black leading-tight sm:text-5xl lg:text-6xl"
+              className="text-4xl font-black leading-tight sm:text-5xl lg:text-6xl "
               style={{ fontFamily: 'var(--font-display)' }}
             >
               Golden buns. Juicy patties. Pure comfort.
@@ -24,15 +27,17 @@ const Hero = () => {
               </a>
               <a
                 href="#visit"
-                className="rounded-full border border-burger-accent/30 bg-white px-5 py-3 font-semibold text-burger-ink transition hover:border-burger-accent-dark"
+                className="rounded-full border border-burger-accent/30 bg-white px-5 py-3 font-semibold text-burger-text transition hover:border-burger-accent-dark"
               >
                 Book a table
               </a>
             </div>
           </div>
 
-          <div className="rounded-[28px] bg-burger-ink p-6 text-white shadow-2xl">
-            <div className="rounded-[20px] border border-white/10 bg-linear-to-br from-burger-accent to-burger-accent-dark p-6">
+          <div className="rounded-[28px] bg-burger-text p-6 text-white shadow-2xl z-10 ">
+
+            <div className="rounded-[20px] border border-white/10 bg-linear-to-br from-burger-text/75 to-burger-accent-dark/25 p-6 relative overflow-hidden ">
+                <img src="/hero-img.jpg" alt="Delicious smash burger" className=" absolute top-0 left-0 w-full h-full object-cover -z-10" />
               <p className="text-sm uppercase tracking-[0.25em] text-white/80">Tonight’s pick</p>
               <h3 className="mt-3 text-2xl font-semibold">The Sunset Stack</h3>
               <p className="mt-2 text-sm text-white/80">
@@ -43,13 +48,14 @@ const Hero = () => {
                   <p className="text-4xl font-black">4.9★</p>
                   <p className="text-sm text-white/70">Local favorite</p>
                 </div>
-                <div className="rounded-full bg-white/15 px-4 py-2 text-sm font-semibold">
+                <div className="rounded-full bg-white/50 px-4 py-2 text-sm font-semibold text-shadow-[0_0_12px_rgba(0,0,0,0.8)]">
                   Open till 1am
                 </div>
               </div>
             </div>
           </div>
         </section>
+        </>
   )
 }
 

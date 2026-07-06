@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-burger-bg: #fffaf0;
+  --color-burger-ink: #fffaf0;
   --color-burger-surface: #fff3c4;
   --color-burger-cream: #fef3c7;
   --color-burger-accent: #f59e0b;
   --color-burger-accent-dark: #b45309;
-  --color-burger-ink: #2d1602;
+  --color-burger-bg: #2d1602;
+  --color-burger-text: #2d1602;
   --font-display: "Trebuchet MS", "Segoe UI", sans-serif;
   --font-body: "Inter", "Segoe UI", sans-serif;
 }

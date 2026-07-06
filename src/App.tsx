@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-burger-bg text-burger-ink">
       <Navbar />
 
-      <main className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">
+      <main className="mx-auto max-w-7xl px-6 pb-16 lg:px-8 relative z-0">
         <Hero />
         <Menu />
         <Story/>
