@@ -4,7 +4,7 @@ const Navbar = () => {
     <header className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-burger-accent-dark">
-            Tandoori Chargha
+            Bulbule
           </p>
           <h2 className="text-xl font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
             Burger House
