@@ -21,18 +21,18 @@ const Menu = () => {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-burger-accent-dark">
               Signature menu
             </p>
-            <h2 className="mt-2 text-3xl font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+            <h2 className="mt-2 text-3xl font-semibold text-burger-text" style={{ fontFamily: 'var(--font-display)' }}>
               Built for bold appetites.
             </h2>
             <ul className="mt-6 space-y-4">
               {specials.map((item) => (
-                <li key={item.title} className="rounded-2xl bg-burger-bg p-4">
+                <li key={item.title} className="rounded-2xl bg-burger-accent-dark p-4">
                   <div className="flex items-start justify-between gap-4">
                     <div>
                       <h3 className="font-semibold">{item.title}</h3>
                       <p className="mt-1 text-sm text-burger-ink/70">{item.description}</p>
                     </div>
-                    <span className="rounded-full bg-burger-accent/10 px-3 py-1 text-sm font-semibold text-burger-accent-dark">
+                    <span className="rounded-full bg-burger-ink/10 px-3 py-1 text-sm font-semibold text-burger-accent">
                       New
                     </span>
                   </div>
@@ -45,17 +45,17 @@ const Menu = () => {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-burger-accent-dark">
               Why guests love us
             </p>
-            <h2 className="mt-2 text-3xl font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+            <h2 className="mt-2 text-3xl font-semibold text-burger-text" style={{ fontFamily: 'var(--font-display)' }}>
               A modern burger house with a cozy soul.
             </h2>
             <div className="mt-6 grid gap-3 sm:grid-cols-3">
               {highlights.map((item) => (
-                <div key={item} className="rounded-2xl bg-white/80 p-4 text-sm font-medium shadow-sm">
+                <div key={item} className="rounded-2xl bg-burger-accent-dark/80 p-4 text-sm font-medium shadow-sm">
                   {item}
                 </div>
               ))}
             </div>
-            <div id="visit" className="mt-8 rounded-3xl bg-burger-ink p-5 text-white">
+            <div id="visit" className="mt-8 rounded-3xl bg-burger-text p-5 text-white">
               <p className="text-sm uppercase tracking-[0.25em] text-white/70">Visit us</p>
               <p className="mt-2 text-xl font-semibold">12 Market Street, Downtown</p>
               <p className="mt-1 text-sm text-white/75">Open daily · 11am to 1am</p>

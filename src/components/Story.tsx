@@ -13,11 +13,11 @@ const Story = () => {
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-burger-accent-dark">
           Our Story
         </p>
-        <h2 className="mt-2 text-3xl font-semibold font-display">
+        <h2 className="mt-2 text-3xl font-semibold font-display text-burger-text">
           Why guests keep coming back.
         </h2>
         
-        <p className="mt-5 max-w-3xl text-base text-burger-ink/80">
+        <p className="mt-5 max-w-3xl text-base text-burger-text/90">
           Born from a love of simple, bold flavors and late-night nostalgia, Tandoori Chargha Burger House 
           started as a dream to bring warmth and comfort to every plate. We believe that a great burger isn't just food—
           it's a moment of joy, best shared with friends over good conversation.
@@ -28,7 +28,7 @@ const Story = () => {
           {highlights.map((item) => (
             <div
               key={item.title}
-              className="rounded-2xl border border-burger-accent/15 bg-white p-5 shadow-sm"
+              className="rounded-2xl border border-burger-accent/15 bg-burger-accent p-5 shadow-sm"
             >
               <p className="text-2xl">{item.icon}</p>
               <h3 className="mt-3 font-semibold text-burger-ink">{item.title}</h3>
@@ -38,7 +38,7 @@ const Story = () => {
         </div>
 
         {/* Testimonial */}
-        <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm">
+        <div className="mt-8 rounded-2xl bg-burger-accent-dark p-6 shadow-sm">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-burger-accent-dark">
             ⭐⭐⭐⭐⭐ What our guests say
           </p>
