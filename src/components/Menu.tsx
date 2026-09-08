@@ -1,9 +1,9 @@
 
 
 const specials = [
-  { title: 'Smoky Sunset Burger', description: 'Double patty, cheddar glow, caramelized onions.' },
-  { title: 'Golden Crunch Fries', description: 'Crispy fries with house spice and garlic aioli.' },
-  { title: 'Honey Melt Shake', description: 'Creamy vanilla shake with a warm honey drizzle.' },
+  { title: 'Smoky Sunset Burger', description: 'Double patty, cheddar glow, caramelized onions.', img:'/smokey-sunset-burger-img.webp' },
+  { title: 'Golden Crunch Fries', description: 'Crispy fries with house spice and garlic aioli.', img:'/golden-crunch-fries-img.avif' },
+  { title: 'Honey Melt Shake', description: 'Creamy vanilla shake with a warm honey drizzle.', img:'/honey-melt-shake-img.png' },
 ]
 
 const highlights = [
@@ -25,11 +25,14 @@ const Menu = () => {
               Built for bold appetites.
             </h2>
             <ul className="mt-6 space-y-4">
+              
+
               {specials.map((item) => (
-                <li key={item.title} className="rounded-2xl bg-burger-accent-dark p-4">
+                <li key={item.title} className="rounded-2xl p-4 relative overflow-hidden h-max z-0 sm:min-h-40 bg-burger-accent-dark">
+                  <img src={item.img} alt={item.title} className="absolute  h-full w-full object-cover opacity-50 top-0 left-0 -z-10"/>
                   <div className="flex items-start justify-between gap-4">
                     <div>
-                      <h3 className="font-semibold">{item.title}</h3>
+                    <h3 className="font-semibold">{item.title}</h3>
                       <p className="mt-1 text-sm text-burger-ink/70">{item.description}</p>
                     </div>
                     <span className="rounded-full bg-burger-ink/10 px-3 py-1 text-sm font-semibold text-burger-accent">

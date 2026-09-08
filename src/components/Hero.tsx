@@ -38,7 +38,7 @@ const Hero = () => {
 
             <div className="rounded-[20px] border border-white/10 bg-linear-to-br from-burger-text/75 to-burger-accent-dark/25 p-6 relative overflow-hidden ">
                 <img src="/hero-img.jpg" alt="Delicious smash burger" className=" absolute top-0 left-0 w-full h-full object-cover -z-10" />
-              <p className="text-sm uppercase tracking-[0.25em] text-white/80">Tonight’s pick</p>
+              <p className="text-sm uppercase tracking-[0.25em] text-white/80">Tonight's pick</p>
               <h3 className="mt-3 text-2xl font-semibold">The Sunset Stack</h3>
               <p className="mt-2 text-sm text-white/80">
                 Double smash, pepper jam, and melty cheddar in a crisp brioche bun.
