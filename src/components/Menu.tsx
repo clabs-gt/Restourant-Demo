@@ -63,7 +63,7 @@ const Menu = () => {
               <p className="mt-2 text-xl font-semibold">12 Market Street, Downtown</p>
               <p className="mt-1 text-sm text-white/75">Open daily · 11am to 1am</p>
             </div>
-              <iframe className="h-40 mt-8 rounded-3xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106239.49143609726!2d72.9345778923702!3d33.68347569056221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfc1007db8fecb%3A0x6b609f8e70f8e5b8!2sDhok%20Tahli%20Nearby%20Ownership%20Works%20Quaid%20E%20Azam%20University%20Islamabad!5e0!3m2!1sen!2s!4v1788958685488!5m2!1sen!2s" width="600" height="450" loading="lazy" ></iframe>
+              <iframe className="h-56 w-full mt-8 rounded-3xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106239.49143609726!2d72.9345778923702!3d33.68347569056221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfc1007db8fecb%3A0x6b609f8e70f8e5b8!2sDhok%20Tahli%20Nearby%20Ownership%20Works%20Quaid%20E%20Azam%20University%20Islamabad!5e0!3m2!1sen!2s!4v1788958685488!5m2!1sen!2s" width="600" height="450" loading="lazy" ></iframe>
           </div>
         </section>
   )

@@ -19,7 +19,7 @@ function App() {
 
       </main>
       <footer className="mx-auto max-w-7xl px-6 pb-8 pt-16 text-sm text-burger-ink/70 lg:px-8">
-        <p>© 2024 Tandoori Chargha. All rights reserved.
+        <p>© 2024 Bulbule burgers. All rights reserved.
           Developed by CLabs
         </p>
 
